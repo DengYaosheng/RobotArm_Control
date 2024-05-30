@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/30/24||13:35:58" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="机械臂   ——装配体" uid="机械臂   ——装配体" version="14510">
+<AssemblyFile name="机械臂   ——装配体.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="臂一-1" uid="臂一-1" grounded="true" entityUid="臂一*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.73737506614355508 0.61261847839239159 0.13245684935486438</Translation>
+</Transform>
+</Instance>
+<Instance name="臂三-1" uid="臂三-1" entityUid="臂三*:*默认">
+<Transform>
+<Rotation>1 1.2580891081554435e-15 4.1157575195489534e-16 -1.2935236779404304e-15 0.99477875985094677 0.10205498003239324 -2.810325573026364e-16 -0.10205498003239324 0.99477875985094677</Rotation>
+<Translation>0.73737506614355486 1.401973212315643 0.36415945696836682</Translation>
+</Transform>
+</Instance>
+<Instance name="节二-1" uid="节二-1" entityUid="节二*:*默认">
+<Transform>
+<Rotation>1 0 0 0 0.9932056960846124 -0.11637201237875477 0 0.11637201237875477 0.9932056960846124</Rotation>
+<Translation>0.73737506614355031 0.77602509026327005 0.047503153420850888</Translation>
+</Transform>
+</Instance>
+<Instance name="动臂油缸_HSG80／45-900-1" uid="动臂油缸_HSG80／45-900-1" entityUid="动臂油缸_HSG80／45-900">
+<Transform>
+<Rotation>-1.0477860723824165e-15 -1 1.0160534823583576e-15 -0.11388284631857314 -8.9011836697808041e-16 -0.99349418584830218 0.99349418584830218 -1.1566804335076266e-15 -0.11388284631857314</Rotation>
+<Translation>0.68942582610914205 1.8938393705945544 -0.07795610314345619</Translation>
+</Transform>
+<Instance name="缸_动臂油缸_HSG80／45-900-1" uid="缸_动臂油缸_HSG80／45-900-1" grounded="true" entityUid="缸_动臂油缸_HSG80／45-900*:*70">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.44256966351209265 -0.047949240034413587 0</Translation>
+</Transform>
+</Instance>
+<Instance name="杆_动臂油缸_HSG80／45-900-1" uid="杆_动臂油缸_HSG80／45-900-1" entityUid="杆_动臂油缸_HSG80／45-900*:*85">
+<Transform>
+<Rotation>1.0000000000000002 0 1.3839804814520592e-15 -1.383980481452059e-15 -6.0915220492406656e-16 1 0 -1.0000000000000002 -6.0915220492406636e-16</Rotation>
+<Translation>-0.82607069088729324 -0.047949240100438884 7.0046191069650376e-11</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="连接片-1" uid="连接片-1" entityUid="连接片*:*默认">
+<Transform>
+<Rotation>-1.2758587111214755e-15 -3.5332186839197286e-16 -0.99999999999999978 0.61348023471007496 0.78971007440710239 -1.0617359405331776e-15 0.78971007440710239 -0.61348023471007496 -7.9080249494338029e-16</Rotation>
+<Translation>0.77737506614355323 2.39310895267 -2.5679331879316942</Translation>
+</Transform>
+</Instance>
+<Instance name="臂二-1" uid="臂二-1" entityUid="臂二*:*默认">
+<Transform>
+<Rotation>1 0 0 0 0.98238021104831974 -0.18689334108164163 0 0.18689334108164163 0.98238021104831974</Rotation>
+<Translation>0.73737506614355508 0.59229638377225635 -0.041986416580412425</Translation>
+</Transform>
+</Instance>
+<Instance name="一级拉筋-1" uid="一级拉筋-1" entityUid="一级拉筋*:*默认">
+<Transform>
+<Rotation>1 -6.245835753621928e-16 -1.2181024198079898e-15 2.9421386766410466e-16 0.96711143715242309 -0.25435303837181672 1.3369055119298554e-15 0.25435303837181672 0.96711143715242309</Rotation>
+<Translation>0.6723750661435548 1.8504498051371896 0.30056693524092981</Translation>
+</Transform>
+</Instance>
+<Instance name="动臂油缸_HSG80／50-900-1" uid="动臂油缸_HSG80／50-900-1" entityUid="动臂油缸_HSG80／50-900">
+<Transform>
+<Rotation>0 1 0 -0.99866988503430687 1.0179494176684755e-16 -0.051560263047862494 -0.051560263047862494 0 0.99866988503430687</Rotation>
+<Translation>0.78532430617796867 0.8632863822476059 0.14539856638680115</Translation>
+</Transform>
+<Instance name="杆_动臂油缸_HSG80／50-900-1" uid="杆_动臂油缸_HSG80／50-900-1" entityUid="杆_动臂油缸_HSG80／50-900*:*85">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 5.4019918344442697e-16 1 0 -1.0000000000000002 5.4019918344442717e-16</Rotation>
+<Translation>-0.49843793222808697 -0.047949239026588319 6.8351574400438153e-12</Translation>
+</Transform>
+</Instance>
+<Instance name="缸_动臂油缸_HSG80／50-900-1" uid="缸_动臂油缸_HSG80／50-900-1" grounded="true" entityUid="缸_动臂油缸_HSG80／50-900*:*70">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.44256966351209281 -0.047949240034413476 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="节一-1" uid="节一-1" entityUid="节一*:*默认">
+<Transform>
+<Rotation>1 0 0 0 0.99699267292311733 -0.077495871745649078 0 0.077495871745649078 0.99699267292311733</Rotation>
+<Translation>0.74237506614355508 0.60025848767733392 0.060961697927601075</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>节一-1</Uid>
+</InstancePath>
+<Position>0.060000000000000053 0.91500000000000026 0.046999999999999854</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>动臂油缸_HSG80／50-900-1</Uid>
+<Uid>杆_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>-0.14800000000000013 0 0.020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂一-1</Uid>
+</InstancePath>
+<Position>0.089999999999999969 0.91500000000000004 -0.22000000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.089999999999999969 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂三-1</Uid>
+</InstancePath>
+<Position>0.074999999999999956 1.297000000000001 -2.9529999999999994</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.11149999999999982 1.2690000000000001 -2.9530000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.074999999999999956 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂三-1</Uid>
+</InstancePath>
+<Position>0.074999999999999956 2.2204460492503131e-16 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂三-1</Uid>
+</InstancePath>
+<Position>0.025000000000000022 1.4289999999999998 -2.8759999999999994</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>节二-1</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>节一-1</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.91500000000000026 -0.19500000000000003</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂一-1</Uid>
+</InstancePath>
+<Position>0.16250000000000009 0.91500000000000004 -0.19500000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.030000000000000027 0.91500000000000037 -0.19500000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>节一-1</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.089999999999999969 0.91500000000000037 -0.19500000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>机械臂   ——装配体</Uid>
+</InstancePath>
+<Position>0.76737506614355633 1.5276184783923916 -0.062543150645135631</Position>
+<Axis>1 -1.0303193834266718e-16 -1.0770123987942609e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂一-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>动臂油缸_HSG80／50-900-1</Uid>
+<Uid>缸_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>动臂油缸_HSG80／50-900-1</Uid>
+<Uid>杆_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>-0.14800000000000013 0 0.020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>节一-1</Uid>
+</InstancePath>
+<Position>0.060000000000000053 0.91500000000000026 0.046999999999999854</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>动臂油缸_HSG80／45-900-1</Uid>
+<Uid>杆_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>-0.14800000000000013 4.4408920985006262e-16 0.024999999999999911</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.11149999999999982 1.2000000000000002 -1.25</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>动臂油缸_HSG80／45-900-1</Uid>
+<Uid>杆_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>连接片-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.11149999999999982 1.2970000000000006 -2.8180000000000005</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>动臂油缸_HSG80／45-900-1</Uid>
+<Uid>缸_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>0.82357142857142873 -0.051428571428571379 -2.2204460492503131e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>节一-1</Uid>
+</InstancePath>
+<Position>0.10300000000000009 1.2650000000000006 0.14200000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>动臂油缸_HSG80／45-900-1</Uid>
+<Uid>缸_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>0.82357142857142873 -0.051428571428571379 -2.2204460492503131e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>一级拉筋-1</Uid>
+</InstancePath>
+<Position>0.14000000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>节一-1</Uid>
+</InstancePath>
+<Position>-0.070000000000000062 1.3347703685784675 0.28114195456149393</Position>
+<Axis>1 0 -1.3290590088916417e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>一级拉筋-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>一级拉筋-1</Uid>
+</InstancePath>
+<Position>0.085000000000000075 -0.032500000000000417 -2.5600000000000005</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>节二-1</Uid>
+</InstancePath>
+<Position>0.038499999999999979 1.4230000000000003 -2.4130000000000016</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>节二-1</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>连接片-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂一-1</Uid>
+</InstancePath>
+<Position>0.16250000000000009 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>动臂油缸_HSG80／50-900-1</Uid>
+<Uid>缸_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>0.69357142857142895 -0.051428571428571379 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>臂三-1</Uid>
+</InstancePath>
+<Position>0.083000000000000074 1.4289999999999998 -2.8759999999999994</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>节二-1</Uid>
+</InstancePath>
+<Position>0.025000000000000022 1.4290000000000005 -2.8760000000000017</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>节二-1</Uid>
+</InstancePath>
+<Position>0.038499999999999979 1.4560000000000006 -2.6290000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>连接片-1</Uid>
+</InstancePath>
+<Position>0.21999999999999997 -4.4408920985006262e-16 0.015000000000000013</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Angle name="LimitAngle3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂二-1</Uid>
+</InstancePath>
+<Position>0.089999999999999969 0.94196912048468218 0.13809222674732866</Position>
+<Axis>0 0.9894244501042867 0.14504915558468562</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>臂一-1</Uid>
+</InstancePath>
+<Position>0.15000000000000002 0.017681258529159249 -0.29711326405549693</Position>
+<Axis>0 0.059405064832494608 -0.99823395968692985</Axis>
+</ConstraintGeometry>
+</Angle>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="动臂油缸_HSG80／45-900" uid="动臂油缸_HSG80／45-900" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="动臂油缸_HSG80／45-900.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>缸_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>0.68999999999999995 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>杆_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>-0.099999999999999978 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>杆_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>0.60999999999999999 0.040000000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>缸_动臂油缸_HSG80／45-900-1</Uid>
+</InstancePath>
+<Position>0.68999999999999995 0.040000000000000001 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</Assembly>
+<Assembly name="动臂油缸_HSG80／50-900" uid="动臂油缸_HSG80／50-900" version="136">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="动臂油缸_HSG80／50-900.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>缸_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>0.55999999999999994 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>杆_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>-0.099999999999999978 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>缸_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>0.55999999999999994 0.040000000000000001 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>杆_动臂油缸_HSG80／50-900-1</Uid>
+</InstancePath>
+<Position>0.51000000000000001 0.039999999999999994 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="臂二" uid="臂二*:*默认" version="411">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="臂二.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>487.62999828683928</Mass>
+<CenterOfMass>3.3581307326748575e-11 1.1297494923170825 -1.5007366206851986</CenterOfMass>
+<Inertia>262.11905951973119 257.27857682895541 7.6718470427381051 36.157237704119055 1.9623081253995785e-08 2.6851048411191983e-09</Inertia>
+</MassProperties>
+<GeometryFile name="臂二_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="臂三" uid="臂三*:*默认" version="271">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="臂三.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>239.41079463933383</Mass>
+<CenterOfMass>-2.1990970134751447e-09 1.3244608547858405 -4.014306634136525</CenterOfMass>
+<Inertia>127.54590784163061 127.20681126552724 1.2817734393712354 -8.0544260952801334 -4.3601960208995336e-07 8.0365168221268128e-07</Inertia>
+</MassProperties>
+<GeometryFile name="臂三_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="臂一" uid="臂一*:*默认" version="240">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="臂一.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>388.34556469103734</Mass>
+<CenterOfMass>0 0.33693335700644272 -0.17968634288853447</CenterOfMass>
+<Inertia>34.523971654764047 4.7576977625976156 35.943219026142948 1.0381391278786136 0 6.182154225232675e-16</Inertia>
+</MassProperties>
+<GeometryFile name="臂一_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="杆_动臂油缸_HSG80／45-900" uid="杆_动臂油缸_HSG80／45-900*:*85" version="243">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="杆_动臂油缸_HSG80／45-900.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6407130438858779</Mass>
+<CenterOfMass>0.25011915194894618 1.8893748203590999e-05 4.9459190059842507e-05</CenterOfMass>
+<Inertia>0.0007582308490139539 0.11313252059607468 0.11323706131655506 1.5607553577361013e-09 3.2306688969563535e-05 1.2341479468522068e-05</Inertia>
+</MassProperties>
+<GeometryFile name="杆_动臂油缸_HSG80／45-900_85_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Diffuse r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Specular r="0.69999998807907104" g="0.49411763864405012" b="0.019215685947268617" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="杆_动臂油缸_HSG80／50-900" uid="杆_动臂油缸_HSG80／50-900*:*85" version="314">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="杆_动臂油缸_HSG80／50-900.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6411928668822435</Mass>
+<CenterOfMass>0.20217234049708757 2.1423192389293612e-05 4.057477666041098e-05</CenterOfMass>
+<Inertia>0.00080037815597932996 0.079352967198279584 0.079467221833373958 1.4432572637926389e-09 2.331841843959284e-05 1.2172441635059707e-05</Inertia>
+</MassProperties>
+<GeometryFile name="杆_动臂油缸_HSG80／50-900_85_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Diffuse r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Specular r="0.69999998807907104" g="0.49411763864405012" b="0.019215685947268617" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="缸_动臂油缸_HSG80／45-900" uid="缸_动臂油缸_HSG80／45-900*:*70" version="883">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="缸_动臂油缸_HSG80／45-900.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.4932416950129062</Mass>
+<CenterOfMass>0.39951321533149392 0 0</CenterOfMass>
+<Inertia>0.006154814649566214 0.24618836659246743 0.24610126001962035 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="缸_动臂油缸_HSG80／45-900_70_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Diffuse r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Specular r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="缸_动臂油缸_HSG80／50-900" uid="缸_动臂油缸_HSG80／50-900*:*70" version="867">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="缸_动臂油缸_HSG80／50-900.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.1469012538113046</Mass>
+<CenterOfMass>0.34737397471134507 0 -1.0066745054123702e-05</CenterOfMass>
+<Inertia>0.0053491225892157053 0.16257008837477976 0.16250155677438374 0 -8.8127713402788394e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="缸_动臂油缸_HSG80／50-900_70_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Diffuse r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Specular r="1" g="0.70588235294117641" b="0.027450980392156862" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="节二" uid="节二*:*默认" version="187">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="节二.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.92820608811706</Mass>
+<CenterOfMass>0.00047650980649324671 1.4364085632606187 -2.634603443746022</CenterOfMass>
+<Inertia>0.24943375627144604 0.247471063308384 0.0095438229273821871 0.0030066963012037062 4.4440469255464782e-05 -0.00013294235369535202</Inertia>
+</MassProperties>
+<GeometryFile name="节二_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="节一" uid="节一*:*默认" version="331">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="节一.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>35.797305602127587</Mass>
+<CenterOfMass>0 1.0678496699083206 0.060203085203486058</CenterOfMass>
+<Inertia>0.7137790352110186 0.39397983367070949 0.44382614528925229 -0.26549508452090848 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="节一_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="连接片" uid="连接片*:*默认" version="162">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="连接片.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5563608279232901</Mass>
+<CenterOfMass>0.10999999999999999 0 0.0074999999999999997</CenterOfMass>
+<Inertia>0.00051020509151835736 0.0084237911093901705 0.0088756326698614055 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="连接片_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="一级拉筋" uid="一级拉筋*:*默认" version="254">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="一级拉筋.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>43.812270735024299</Mass>
+<CenterOfMass>0.070000062754597331 -0.0076919777766514116 -0.78503168651963517</CenterOfMass>
+<Inertia>16.530807684442383 16.616287583585734 0.20723667375660296 -0.41948331727788962 3.0370899412526517e-06 7.4118241054716134e-08</Inertia>
+</MassProperties>
+<GeometryFile name="一级拉筋_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

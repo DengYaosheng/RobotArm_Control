@@ -1,0 +1,4 @@
+Constrained Instances: '±Û¶ş-1', '±ÛÈı-1', '±ÛÈı-1'
+Constraint Name: LimitAngle2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
